@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Page!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<center>
+    <div>
+        <h2>Register Page</h2>
+</center>
+<form action="checkRegister.php" method="post">
+    <div>
+        <label for="username" >User Name:</label>
+        <input type="text"  id="username" placeholder="Enter username" name="username"  required>
+    </div>
+    <div >
+        <label for="password" >Password:</label>
+        <input type="password"  id="password" placeholder="Enter password" name="password" required>
+    </div>
+    <div >
+        <label for="name" >Full Name:</label>
+        <input type="text"  id="name" placeholder="Enter Full Name" name="name" required>
+    </div>
+    <div >
+        <label for="birth" >Birth:</label>
+        <input type="datetime-local"  id="birth" placeholder="Select Birth" name="birth" required>
+    </div>
+     <div >
+        <label for="email" >Email:</label>
+        <input type="text"  id="email" placeholder="Enter Email" name="email" required>
+    </div>
+     <div >
+        <label for="phone" >Phone:</label>
+        <input type="text"  id="phone" placeholder="Enter Your Phone" name="phone"  required>
+    </div>
+    <center>
+        <input type="submit" name="SUBMIT" value="Submit" >
+        <button type="reset" >Reset</button>
+        <td colspan="2"><center><p><a href='Login.html'>Turn Back!</a></p></center></td>
+    </center>
+</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<center>
+  <h2>Login Page</h2>
+</center>
+<form action="checkLogin.php" method="post">
+    <div>
+      <label for="username" >User Name:</label>
+      <input type="text"  id="username" placeholder="Enter User" name="username"  required>
+    </div>
+    <div>
+      <label for="password" >Password:</label>
+      <input type="password" id="password" placeholder="Enter password" name="password" required>
+    </div>
+    <center>
+        <button type="submit" name="btn_submit" >Submit</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+        <td colspan="2"><p>Not registered yet? <a href='register.html'>Register Here</a></p></td>
+		<td><a href="#">Nhớ thêm đường dẫn cho Home Back To Form!</a></td>
+    </center>
+  </form>
+ 
+</div>
+</body>
+</html>
